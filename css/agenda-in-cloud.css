@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 768px){
+    .agenda{
+        flex-direction: column;
+    }
+}
+.agenda{
+    display: flex;
+    align-items: stretch;
+}
+.agenda > div{
+    flex: 1 1 0px;
+    flex-direction: column;
+    padding: .5rem;
+    text-align: center;
+}
+.agenda .agenda-header{
+    font-size: 120%;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.agenda-footer{
+    color:rgba(30,30,30,0.3);
+}
+.agenda > div > .booking{
+    display: block;
+    color:white;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.agenda > div > .booking > .booking-title{
+    font-weight: bold;
+}
+.agenda > div > .booking > .booking-body{
+    font-size: 80%;
+}
+.agenda > div > .booking > .booking-operator{
+    font-size: 70%;
+    font-style: italic;
+}
+.agenda > div > .booking > .booking-structure{
+    font-size: 70%;
+    font-style: italic;
+}
